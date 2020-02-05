@@ -1,0 +1,29 @@
+body{
+	position: fixed;
+	display: block;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 2;
+	cursor: pointer;
+}
+.container img{
+	width: 200px;
+	margin: 0 auto;
+	display: block;
+	margin-top: 150px;
+}
+.container .centre_bt{
+	display: block;
+	margin: 0 auto;
+	margin-top: 40px;
+	background: #00b8e6;
+	color: #fff;
+	width: 200px;
+	height: 50px;
+	font-weight: bold;
+}

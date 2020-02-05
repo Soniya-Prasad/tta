@@ -1,0 +1,85 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+	margin: 0;
+	background: #f2f2f2;
+	background-color: #404040;;
+	height: 100vh;
+	color: #fff;
+    font-family: sans-serif;
+}
+body a{
+    text-decoration: none;
+}
+#container {
+    display: block;
+}
+#container #content {
+    background-image: linear-gradient(to top,#677b9e,#9e817b,#9e817b,#9e817b,#677b9e);
+}
+/*-----------Start of Header CSS -----------------------*/
+#container .header,
+#container .footer {
+    overflow: hidden;
+    background: #2d2e2e;
+    padding: 5px 0 5px 30px;
+}
+#container .header .sg-col {
+    float: left;
+}
+#container .header .col1 {
+    width: 150px;
+}
+#container .header .col2 {
+    padding: 20px;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: block;
+    width: 75%;   
+    text-align: center;
+}
+#container .header .col2 span{
+    padding: 14px 250px;
+    background:  #2d5986;
+}
+#container .header .col3 {
+    float: right;
+    padding: 10px;
+    background: brown;
+    border-radius: 5px;
+    margin: 15px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100px;
+}
+
+/*-------------End of Header CSS----------------*/
+#container #main-content {
+    padding: 30px 50px;
+ 
+}
+/*-------------Start of Footer CSS----------------*/
+#container .footer .footer-logo{
+    display: block;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#container .footer .links{
+    float: left;
+    width: 80%;
+    height: 100px;  
+    align-items: center;
+    display: flex;
+}
+#container .footer .links a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 30%;
+    display: block;
+    text-align: center;
+    float: left;
+}

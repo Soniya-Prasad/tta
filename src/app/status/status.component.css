@@ -1,0 +1,74 @@
+.container .status{
+	margin: 0 auto;
+    width: 230px;
+    margin-bottom: 30px;
+}
+.container .status .pipe{
+	height: 100px;
+    width: 3px;
+    background: white;
+}
+.container .status .pipe.on{
+	background: #ffdb4d;
+}
+.container .status .blink{
+	display: flex;
+}
+.container .status .blink span{
+    display: block;
+    padding-left: 80px;
+    padding-top: 6px;
+    float: left;
+    font-weight: bold;
+    color: whitesmoke;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.container .status .blink img{
+	background: azure;
+    border-radius: 50%;
+    margin: 0 0 0 -14px;
+    float: left;
+}
+.container .status .blink.on img{
+	animation: blinker 1s linear infinite;
+} 
+.container .status .blink.on span{
+	animation: blink_txt 1s linear infinite;
+}
+.container .status .blink.off img{
+	background: #ffdb4d;
+}
+.container .status .blink.off span{
+	color: #ffdb4d;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+    background: red;
+    border-radius: 50%;
+    
+  }
+}
+@keyframes blink_txt{
+	50%{
+		opacity: 0;
+		color: red;
+	}
+}
+
+.container .footer-btns{
+	width: 600px;
+	margin: 0 auto;
+}
+.container .footer-btns button{
+	/*border-radius: 13px;*/
+    font-size: 15px;
+    font-weight: bold;
+    background: #ff6666;
+    border: #ff6666;
+    color: #fff;
+    padding: 10px;
+    margin-right: 20px;
+    min-width: 120px;
+}
